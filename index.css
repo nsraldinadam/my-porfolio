@@ -393,6 +393,8 @@
      }
 
      .container .resume {
+      color: #000000;
+      background-color: #000000;
          display: flex;a
          justify-content: center;
          padding: 20px;
