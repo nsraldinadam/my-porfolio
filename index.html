@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NSRALDIN ADAM - Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        
         /* Reset and Base Styles */
         * {
             margin: 0;
@@ -766,7 +766,8 @@
             color: var(--light);
         }
 
-        .footer-section p, .footer-section a {
+        .footer-section p,
+        .footer-section a {
             color: #bdc3c7;
             margin-bottom: 10px;
             display: block;
@@ -790,6 +791,7 @@
                 opacity: 0;
                 transform: translateY(20px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -800,6 +802,7 @@
             from {
                 opacity: 0;
             }
+
             to {
                 opacity: 1;
             }
@@ -811,20 +814,20 @@
                 flex-direction: column;
                 text-align: center;
             }
-            
+
             .home-text h2 {
                 font-size: 2.5rem;
             }
-            
+
             .home-image img {
                 height: 350px;
                 width: 280px;
             }
-            
+
             .about-content {
                 flex-direction: column;
             }
-            
+
             .about-buttons {
                 justify-content: center;
             }
@@ -834,7 +837,7 @@
             .nav {
                 padding: 15px 0;
             }
-            
+
             .navbar {
                 position: fixed;
                 top: 70px;
@@ -848,41 +851,41 @@
                 transition: left 0.3s ease;
                 z-index: 999;
             }
-            
+
             .navbar.active {
                 left: 0;
             }
-            
+
             .navbar a {
                 padding: 15px;
                 font-size: 1.2rem;
             }
-            
+
             .menu-toggle {
                 display: flex;
             }
-            
+
             .auth-buttons {
                 display: none;
             }
-            
+
             .home-text h2 {
                 font-size: 2rem;
             }
-            
+
             .home-image img {
                 height: 300px;
                 width: 250px;
             }
-            
+
             section {
                 padding: 80px 0 30px;
             }
-            
+
             section h1 {
                 font-size: 2rem;
             }
-            
+
             .skills-container,
             .projects-grid,
             .resume-grid,
@@ -890,11 +893,11 @@
             .testimonials-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .resume-images {
                 grid-template-columns: repeat(2, 1fr);
             }
-            
+
             .footer-content {
                 grid-template-columns: 1fr;
             }
@@ -904,48 +907,49 @@
             .home-text h2 {
                 font-size: 1.8rem;
             }
-            
+
             .home-text p {
                 font-size: 1rem;
             }
-            
+
             .home-image img {
                 height: 250px;
                 width: 200px;
             }
-            
+
             .btn {
                 padding: 10px 20px;
                 font-size: 0.9rem;
             }
-            
+
             .about-buttons {
                 flex-direction: column;
                 align-items: center;
             }
-            
+
             .resume-images {
                 grid-template-columns: 1fr;
             }
-            
+
             .contact-form {
                 padding: 20px;
             }
         }
     </style>
 </head>
+
 <body>
     <div class="parent">
         <div class="nav" id="navbar">
             <a href="#home" class="logo">NSR<span>DIN ADAM</span></a>
-            
+
             <!-- Mobile menu toggle -->
             <div class="menu-toggle" id="menu-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-            
+
             <nav class="navbar" id="navbar-menu">
                 <a href="#home">Home</a>
                 <a href="#aboutme">About Me</a>
@@ -978,7 +982,8 @@
                     </div>
                     <div class="form-group">
                         <label for="signin-password">Password:</label>
-                        <input type="password" id="signin-password" name="password" placeholder="Your password" required>
+                        <input type="password" id="signin-password" name="password" placeholder="Your password"
+                            required>
                     </div>
                     <button type="submit" class="btn" style="width: 100%;">Sign In</button>
                 </form>
@@ -993,11 +998,13 @@
                     </div>
                     <div class="form-group">
                         <label for="signup-password">Password:</label>
-                        <input type="password" id="signup-password" name="password" placeholder="Your password" required>
+                        <input type="password" id="signup-password" name="password" placeholder="Your password"
+                            required>
                     </div>
                     <div class="form-group">
                         <label for="signup-confirm">Confirm Password:</label>
-                        <input type="password" id="signup-confirm" name="confirm" placeholder="Confirm password" required>
+                        <input type="password" id="signup-confirm" name="confirm" placeholder="Confirm password"
+                            required>
                     </div>
                     <button type="submit" class="btn" style="width: 100%;">Sign Up</button>
                 </form>
@@ -1010,13 +1017,17 @@
                     <div class="home-text">
                         <h2>Hello, I'm</h2>
                         <h2>NSRALDIN ADAM DOOD</h2>
-                        <p>A passionate Software Engineer & Web Developer with expertise in creating full-stack web applications and digital solutions. With a strong background in both technical development and business administration, I bring a unique perspective to every project. My journey spans from studying at Alight Coding School and Nilein University to gaining practical experience in various industries including marketing, hospitality, and IT services.</p>
+                        <p>A passionate Software Engineer & Web Developer with expertise in creating full-stack web
+                            applications and digital solutions. With a strong background in both technical development
+                            and business administration, I bring a unique perspective to every project. My journey spans
+                            from studying at Alight Coding School and Nilein University to gaining practical experience
+                            in various industries including marketing, hospitality, and IT services.</p>
                         <a href="#contact" class="btn">HIRE ME</a>
                         <div class="social-icons">
-                            <a href="#"><i class="fab fa-facebook"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/nsraldyn.adm.twtshy"><i class="fab fa-facebook"></i></a>
+                            <a href="https://x.com/home"><i class="fab fa-twitter"></i></a>
                             <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/nsraldinadam"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                     <div class="home-image">
@@ -1033,8 +1044,17 @@
                 <div class="about-content">
                     <div class="about-text">
                         <h2>Hello, I'm NSRALDIN Adam Dood</h2>
-                        <p>I'm a software engineer and web developer with a passion for creating innovative digital solutions. Currently studying at Alight Coding School and Nilein University, Faculty of Commerce, Department of Business Administration. My diverse background in both technology and business allows me to approach problems from multiple perspectives, creating solutions that are not only technically sound but also commercially viable.</p>
-                        <p>"Having spent the last five years building web applications for a range of contexts, I excel in creating full-stack web applications in JavaScript. I am enthusiastic about expanding my skills and experience in advanced UX, and agile project management. My journey has taken me from Sudan University of Science and Technology to various professional roles including marketing management, where I've developed a comprehensive understanding of both the technical and business aspects of digital solutions."</p>
+                        <p>I'm a software engineer and web developer with a passion for creating innovative digital
+                            solutions. Currently studying at Alight Coding School and Nilein University, Faculty of
+                            Commerce, Department of Business Administration. My diverse background in both technology
+                            and business allows me to approach problems from multiple perspectives, creating solutions
+                            that are not only technically sound but also commercially viable.</p>
+                        <p>"Having spent the last five years building web applications for a range of contexts, I excel
+                            in creating full-stack web applications in JavaScript. I am enthusiastic about expanding my
+                            skills and experience in advanced UX, and agile project management. My journey has taken me
+                            from Sudan University of Science and Technology to various professional roles including
+                            marketing management, where I've developed a comprehensive understanding of both the
+                            technical and business aspects of digital solutions."</p>
                         <div class="about-buttons">
                             <a href="#contact" class="btn">HIRE ME</a>
                             <a href="#resume" class="btn btn-outline">Download CV</a>
@@ -1093,26 +1113,32 @@
                 <h1>My Projects</h1>
                 <div class="projects-grid">
                     <div class="project-item">
-                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="E-Commerce Website" class="project-img">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                            alt="E-Commerce Website" class="project-img">
                         <div class="project-content">
                             <h3 class="project-title">E-Commerce Platform</h3>
-                            <p class="project-description">A full-stack e-commerce solution with payment integration and admin dashboard.</p>
+                            <p class="project-description">A full-stack e-commerce solution with payment integration and
+                                admin dashboard.</p>
                             <a href="#" class="btn">View Project</a>
                         </div>
                     </div>
                     <div class="project-item">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" alt="Business Dashboard" class="project-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80"
+                            alt="Business Dashboard" class="project-img">
                         <div class="project-content">
                             <h3 class="project-title">Business Analytics Dashboard</h3>
-                            <p class="project-description">Interactive dashboard for business intelligence and data visualization.</p>
+                            <p class="project-description">Interactive dashboard for business intelligence and data
+                                visualization.</p>
                             <a href="#" class="btn">View Project</a>
                         </div>
                     </div>
                     <div class="project-item">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Mobile App" class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                            alt="Mobile App" class="project-img">
                         <div class="project-content">
                             <h3 class="project-title">Task Management App</h3>
-                            <p class="project-description">Cross-platform mobile application for productivity and task management.</p>
+                            <p class="project-description">Cross-platform mobile application for productivity and task
+                                management.</p>
                             <a href="#" class="btn">View Project</a>
                         </div>
                     </div>
@@ -1126,19 +1152,20 @@
                 <div class="resume-grid">
                     <div class="resume-item">
                         <h2>Education</h2>
-                        <p>Sudan University of Science and Technology, College of Water & Environmental Engineering. Manager at Marketing in Khartoum Town.</p>
+                        <p>Sudan University of Science and Technology, College of Water & Environmental Engineering.
+                            Manager at Marketing in Khartoum Town.</p>
                     </div>
                     <div class="resume-item">
                         <h2>Courses</h2>
                         <p>Communication & Information Technology (ICT)<br>
-                        Website Development<br>
-                        Cyber Security</p>
+                            Website Development<br>
+                            Cyber Security</p>
                     </div>
                     <div class="resume-item">
                         <h2>Experience</h2>
                         <p>Student at Nilein University, Faculty of Commerce, Department of Business Administration<br>
-                        Data Analysis<br>
-                        Web Design</p>
+                            Data Analysis<br>
+                            Web Design</p>
                     </div>
                     <div class="resume-item">
                         <h2>Skills</h2>
@@ -1152,10 +1179,14 @@
                     </div>
                 </div>
                 <div class="resume-images">
-                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Coding Project">
-                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Business Project">
-                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" alt="Marketing Project">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Data Analysis Project">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                        alt="Coding Project">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+                        alt="Business Project">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80"
+                        alt="Marketing Project">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                        alt="Data Analysis Project">
                 </div>
             </div>
         </section>
@@ -1170,15 +1201,18 @@
                         </div>
                         <h2>Personal Service</h2>
                         <p>I work in Hairdressing and Beauty services and Health service.</p>
-                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Personal Service">
+                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+                            alt="Personal Service">
                     </div>
                     <div class="service-item">
                         <div class="service-icon">
                             <i class="fas fa-briefcase"></i>
                         </div>
                         <h2>Business Service</h2>
-                        <p>My business services include Marketing and Sales, Transport services, Customer service, and Accounting services.</p>
-                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Business Service">
+                        <p>My business services include Marketing and Sales, Transport services, Customer service, and
+                            Accounting services.</p>
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                            alt="Business Service">
                     </div>
                     <div class="service-item">
                         <div class="service-icon">
@@ -1186,15 +1220,18 @@
                         </div>
                         <h2>Tourism & Hospitality</h2>
                         <p>I work in Hotel services and restaurant management.</p>
-                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Tourism Service">
+                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                            alt="Tourism Service">
                     </div>
                     <div class="service-item">
                         <div class="service-icon">
                             <i class="fas fa-laptop-code"></i>
                         </div>
                         <h2>Desktop Programming</h2>
-                        <p>My service page is designed to work seamlessly on any device. Explore my offerings with ease and discover how I can help you.</p>
-                        <img src="https://images.unsplash.com/photo-1517697471339-4aa32003c11a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80" alt="Programming Service">
+                        <p>My service page is designed to work seamlessly on any device. Explore my offerings with ease
+                            and discover how I can help you.</p>
+                        <img src="https://images.unsplash.com/photo-1517697471339-4aa32003c11a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80"
+                            alt="Programming Service">
                     </div>
                 </div>
             </div>
@@ -1205,7 +1242,8 @@
                 <h1>Testimonials</h1>
                 <div class="testimonials-grid">
                     <div class="testimonial-item">
-                        <p class="testimonial-text">"NSRALDIN delivered an exceptional website for our business. His attention to detail and technical expertise exceeded our expectations."</p>
+                        <p class="testimonial-text">"NSRALDIN delivered an exceptional website for our business. His
+                            attention to detail and technical expertise exceeded our expectations."</p>
                         <div class="testimonial-author">
                             <div class="author-info">
                                 <h4>nsraldin adam dood</h4>
@@ -1214,7 +1252,8 @@
                         </div>
                     </div>
                     <div class="testimonial-item">
-                        <p class="testimonial-text">"Working with NSRALDIN was a great experience. He understood our requirements perfectly and delivered on time with excellent quality."</p>
+                        <p class="testimonial-text">"Working with NSRALDIN was a great experience. He understood our
+                            requirements perfectly and delivered on time with excellent quality."</p>
                         <div class="testimonial-author">
                             <div class="author-info">
                                 <h4>Michael Brown</h4>
@@ -1230,7 +1269,13 @@
             <div class="container">
                 <h1>Blog</h1>
                 <div class="blog-content">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                        anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined chunks as necessary, making this the first true generator on
+                        the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model
+                        sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
                     <a href="#" class="btn">READ MORE</a>
                 </div>
             </div>
@@ -1239,7 +1284,8 @@
         <section id="contact">
             <div class="container">
                 <h1>Contact Me</h1>
-                <form class="contact-form">
+                <form onsubmit="sendMail(event)" class="contact-form">
+
                     <fieldset>
                         <legend>Contact Information</legend>
                         <div class="form-group">
@@ -1294,10 +1340,10 @@
 
     <script>
         // Scroll animations
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             // Navbar scroll effect
             const navbar = document.getElementById('navbar');
-            window.addEventListener('scroll', function() {
+            window.addEventListener('scroll', function () {
                 if (window.scrollY > 50) {
                     navbar.classList.add('scrolled');
                 } else {
@@ -1308,16 +1354,16 @@
             // Mobile menu toggle
             const menuToggle = document.getElementById('menu-toggle');
             const navbarMenu = document.getElementById('navbar-menu');
-            
-            menuToggle.addEventListener('click', function() {
+
+            menuToggle.addEventListener('click', function () {
                 navbarMenu.classList.toggle('active');
                 menuToggle.classList.toggle('active');
             });
-            
+
             // Close mobile menu when clicking on a link
             const navLinks = document.querySelectorAll('.navbar a');
             navLinks.forEach(link => {
-                link.addEventListener('click', function() {
+                link.addEventListener('click', function () {
                     navbarMenu.classList.remove('active');
                     menuToggle.classList.remove('active');
                 });
@@ -1355,7 +1401,7 @@
             // Simple form validation
             const forms = document.querySelectorAll('form');
             forms.forEach(form => {
-                form.addEventListener('submit', function(e) {
+                form.addEventListener('submit', function (e) {
                     e.preventDefault();
                     alert('Form submitted successfully!');
                     this.reset();
@@ -1371,25 +1417,25 @@
             const authForms = document.querySelectorAll('.auth-form');
 
             // Open modal when clicking sign in/up buttons
-            signinBtn.addEventListener('click', function(e) {
+            signinBtn.addEventListener('click', function (e) {
                 e.preventDefault();
                 authModal.style.display = 'flex';
                 switchTab('signin');
             });
 
-            signupBtn.addEventListener('click', function(e) {
+            signupBtn.addEventListener('click', function (e) {
                 e.preventDefault();
                 authModal.style.display = 'flex';
                 switchTab('signup');
             });
 
             // Close modal
-            closeModal.addEventListener('click', function() {
+            closeModal.addEventListener('click', function () {
                 authModal.style.display = 'none';
             });
 
             // Close modal when clicking outside
-            window.addEventListener('click', function(e) {
+            window.addEventListener('click', function (e) {
                 if (e.target === authModal) {
                     authModal.style.display = 'none';
                 }
@@ -1397,7 +1443,7 @@
 
             // Tab switching
             authTabs.forEach(tab => {
-                tab.addEventListener('click', function() {
+                tab.addEventListener('click', function () {
                     const tabName = this.getAttribute('data-tab');
                     switchTab(tabName);
                 });
@@ -1424,26 +1470,44 @@
             }
 
             // Auth form submissions
-            document.getElementById('signin-form').addEventListener('submit', function(e) {
+            document.getElementById('signin-form').addEventListener('submit', function (e) {
                 e.preventDefault();
                 alert('Sign In functionality would be implemented here!');
                 authModal.style.display = 'none';
             });
 
-            document.getElementById('signup-form').addEventListener('submit', function(e) {
+            document.getElementById('signup-form').addEventListener('submit', function (e) {
                 e.preventDefault();
                 const password = document.getElementById('signup-password').value;
                 const confirm = document.getElementById('signup-confirm').value;
-                
+
                 if (password !== confirm) {
                     alert('Passwords do not match!');
                     return;
                 }
-                
+
                 alert('Sign Up functionality would be implemented here!');
                 authModal.style.display = 'none';
             });
         });
     </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("OT57tYbXgbyHAY8hx");
+        })();
+
+        function sendMail(event) {
+            event.preventDefault();
+            emailjs.sendForm('service_5hnuxou', 'template_kz0x64l', event.target)
+                .then(() => {
+                    alert('Message sent successfully!');
+                }, (error) => {
+                    alert('Failed to send message: ' + JSON.stringify(error));
+                });
+        }
+    </script>
 </body>
-</html>git 
+
+</html>git
